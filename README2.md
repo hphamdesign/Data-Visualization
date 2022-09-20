@@ -13,7 +13,16 @@
 <h5> Plan to get mockup in code </h5>
 // Create an SVG of the outline of the map </br>
 // Assign the areas within the map with the corresponding country </br>
+
+<h6> Maternal Mortality Ratio </h6>
+
 // Create a color scale as per design mockup for Maternal Mortality Ratio </br>
 // Create a if for loop function that sets different value range for each color (if <100, blue) </br>
 // Assign Maternal Mortality Ratio data values to the fill colors </br>
 // Parse the Maternal Mortality Ratio dataset and use a function to assign the colors of the corresponding value range</br> 
+// Display the colors onto the map as the fill of each area </br> 
+
+<h6>Proportion of birth attended by skilled health personnel </h6>
+
+// Create a SVG circle as per design mockup for skilled health personnel proportion </br>
+// Assign skilled health personnel proportion data values to the circles </br>

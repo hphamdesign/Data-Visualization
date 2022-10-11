@@ -5,6 +5,7 @@
 <ul> <b>Data quality:</b> The data set has 4 properties (countries, age, sex, AUD %).The data set has no missing data (as of 2016). There are 570 data points in total. </ul>
 <ul> <b>Visualization method:</b> Pictograph </ul>
 
+![image](https://github.com/hphamdesign/Data-Visualization/blob/Project-2/Qualitative-Process/Screen%20Shot%202022-10-11%20at%201.31.19%20PM.png)
 
 ### Concept 2
 <ul> <b>Tittle:</b> <i>What is going on?</i> </ul>

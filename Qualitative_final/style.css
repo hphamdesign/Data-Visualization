@@ -1,0 +1,70 @@
+div.tooltip {
+    z-index: 999;
+    position: absolute;
+    text-align: left;
+    padding: .5rem;
+    background: white;
+    color: #313639;
+    border: 1px solid #313639;
+    border-radius: 8px;
+    pointer-events: none;
+    font-size: 1.2rem;
+    font-family: 'Roboto Mono', monospace;
+   }
+   
+body{
+    background-color:rgb(10, 10, 41);
+    /* background-color:transparent; */
+}
+
+.header{
+    margin-top: 40px;
+    margin-left: 80px;
+    text-align: left;
+    font-family: "Inconsolata", monospace;
+    font-weight: 700;
+    font-size: 52px;
+    color: #c90017;
+}
+
+#my_dataviz{
+    margin-left: 0px;
+}
+
+#grid-chart{
+    margin-left: 0px;
+}
+
+.legalAge{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.percent{
+    margin-top: 0px;
+    margin-left: 1000px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.legendBox{
+    z-index: 100;
+    /* display: grid;
+    grid-template-columns: 200px 200px 200px; */
+    align-items: center;
+    position: absolute;
+    bottom:0;
+    left: 80px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+}
+

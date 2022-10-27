@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+        <title>Does the law make us more sober?</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            Does The Law Make Us More Sober?
+        </div>
+
+        <div id="my_dataviz">
+            <div id="grid-chart"></div>
+        
+        <div class="legendBox">
+            <div class="legalAge">
+                Legal Drinking Age
+            </div>
+            <svg id="myLegend" width=1200></svg>
+        </div>
+
+        <div class="legendBox">
+            <div class="percent">
+                Alcohol Use Disorder (%)
+            </div>
+            <div id="bottleLegend"></div>
+            <svg id="myLegend" width=1200></svg>
+
+        <script src="script.js"></script>
+        <script src="legend.js"></script>
+    </body>
+</html>

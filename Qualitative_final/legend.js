@@ -90,3 +90,4 @@ var text = legendIcon.append('text')
 	.attr("fill",function(d,i) { return colorText(i);})
 	.attr("text-align","center")
     .attr("font-size","18px");
+

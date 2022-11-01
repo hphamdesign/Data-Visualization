@@ -47,7 +47,7 @@ body{
 }
 .percent{
     margin-top: 0px;
-    margin-left: 1000px;
+    margin-left: 0px;
     margin-bottom: 20px;
     text-align: left;
     font-family: 'Roboto Mono', monospace;
@@ -68,3 +68,83 @@ body{
     font-size: 15px;
 }
 
+.legendBox2{
+    z-index: 100;
+    /* display: grid;
+    grid-template-columns: 200px 200px 200px; */
+    align-items: center;
+    position: absolute;
+    bottom:0;
+    left: 1000px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+}
+
+.myLegendIcon{
+    margin-top: 0px;
+    margin-left: 1000px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+#sort_btn {
+    position: absolute;
+    right: 7rem;
+    top: 45px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    padding:0px 25px 2px;
+    border-radius: 12.5px;
+    border:black;
+    display:inline-block;
+    color:#fff;
+    text-decoration: none;
+    background-color: #205dc6;
+    height:40px;
+  }
+  #sort_btn:hover {
+    text-decoration: none;
+    background-color:#272cc0;
+  }
+  #sort_btn:focus {
+    outline:none;
+  }
+  #sort_btn:after {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    content:"";
+    position: relative;
+    top:-10px;
+    right:-5px;
+  }
+  #sort_btn.asc:after {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    content:"";
+    position: relative;
+    top:13px;
+    right:-5px;
+  }
+  #sort_btn.desc:after {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #fff;
+    content:"";
+    position: relative;
+    top:-10px;
+    right:-5px;
+  }
